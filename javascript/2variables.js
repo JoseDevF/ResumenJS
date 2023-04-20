@@ -1,8 +1,3 @@
-// comentario a una línea
-/* comentarios
-    a doble línea
-    */
-// los comentarios se utilizan para documentar el código
 /* Variables
    Son elementos guardados en memoria ram, en donde puedo guardar cualquier cosa */
 
@@ -34,18 +29,3 @@ const PI = 3.1416;
 // let 1nombre_usuario
 // let ?nombreusuario
 // let añó
-
-/* Tipos de datos */
-/* 
-  Primitivos
-  string -> "hola mundo"
-  number -> 10.12
-  boolean -> true / false
-*/
-
-const mensaje = "Hola mundo";
-const dni = 129381723918237;
-const mayorEdad = true;
-
-/* debilmente tipado */
-/* estrictamene tipado */
