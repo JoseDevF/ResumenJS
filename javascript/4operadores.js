@@ -1,20 +1,15 @@
-/*
-Operadores Aritméticos:
+/* Operadores matemáticos */
+// Suma -> (+)
+// Resta -> (-)
+// Multiplicación -> (*)
+// División (/)
+// Modulo (%) 10/3 -> 1
+// Exponencial (**)
 
-Suma -> +
-Resta -> -
-Multiplicación -> *
-División -> /
-Modulo -> %
-Potencia -> **
-
- */
-
-
-console.log(5 + 6);
-console.log(5 + '6');
-console.log(5 + 5 + 7 + '8');
-console.log(5 + 5 + 7 - 'text');
+console.log(3 + 2);
+console.log(2 + "a");
+console.log(3 - 2);
+console.log(3 - "a"); // NaN -> Not a number
 
 /*
 Operadores de asignación
