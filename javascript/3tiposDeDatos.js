@@ -22,6 +22,9 @@ const mensaje = "Hola mundo";
 const dni = 129381723918237;
 const dniString = "129381723918237";
 const mayorEdad = true;
+const suma = function (){
+  return 1 + 2;
+}
 let test;
 
 /* const userName = "Carlos";
