@@ -16,3 +16,12 @@ body {
 .home-post h1 {
   color: rgb(14, 101, 222);
 }
+
+.custom-title {
+  color: rgb(176, 120, 16);
+  text-align: center;
+}
+
+.photo {
+  width: 200px;
+}
