@@ -3,6 +3,16 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   color: white;
 }
-h1{
+.main-title {
   text-align: center;
+}
+
+.home-post {
+  border: 2px solid tomato;
+  padding: 0.4rem;
+  margin: 1rem 0;
+}
+
+.home-post h1 {
+  color: rgb(14, 101, 222);
 }
