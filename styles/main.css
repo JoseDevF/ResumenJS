@@ -3,6 +3,7 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   color: white;
 }
+
 .main-title {
   text-align: center;
 }
@@ -24,4 +25,31 @@ body {
 
 .photo {
   width: 200px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contenedor {
+  align-self: center;
+  max-width: 200px;
+  height: 100px;
+  margin-top: 1rem;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton {
+  align-self: center;
+  max-width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: navy;
+  color: white;
+  cursor: pointer;
 }
