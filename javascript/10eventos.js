@@ -57,3 +57,17 @@ contenedor.addEventListener('focus', () => {
 contenedor.addEventListener('blur', () => {
     console.log('El contenedor perdió el foco');
 });
+
+
+/* 
+1- preventDefault(): Evita el comportamiento predeterminado de un evento, como enviar un formulario o seguir un enlace.
+2- stopPropagation(): Detiene la propagación del evento a través de los elementos secundarios o elementos superiores.
+3- addEventListener(): Agrega un listener (oyente) a un elemento para escuchar un evento específico y ejecutar una función cuando ocurra ese evento.
+4- removeEventListener(): Elimina un listener previamente agregado con addEventListener().
+5- target: Propiedad que hace referencia al elemento en el que se originó el evento.
+6- currentTarget: Propiedad que hace referencia al elemento que está actualmente manejando el evento.
+7- event.type: Propiedad que indica el tipo de evento que se ha desencadenado.
+8- event.preventDefault(): Variante del método preventDefault() para evitar el comportamiento predeterminado del evento dentro de una función de listener.
+9- event.stopPropagation(): Variante del método stopPropagation() para detener la propagación del evento dentro de una función de listener.
+10- event.stopPropagation(): Variante del método stopPropagation() para detener la propagación del evento dentro de una función de listener.
+*/

@@ -45,17 +45,17 @@
     <div id="contenedor">Pasa el mouse aquí</div>
   </section> -->
   <section class="container-sm">
-    <form>
+    <form id="loginForm">
       <div class="mb-3">
         <label for="userNameInput" class="form-label">Usuario</label>
-        <input type="text" class="form-control" id="userNameInput" aria-describedby="nameHelp">
+        <input name="userName" type="text" class="form-control" id="userNameInput" aria-describedby="nameHelp">
         <div id="nameHelp" class="form-text">Ingresa el nombre de usuario</div>
       </div>
       <div class="mb-3">
         <label for="userPasswordInput" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="userPasswordInput">
+        <input name="userPassword" type="password" class="form-control" id="userPasswordInput">
       </div>
-      <button id="login" type="button" class="btn btn-primary">Acceder</button>
+      <button id="login" type="submit" class="btn btn-primary">Acceder</button>
     </form>
   </section>
 </body>
