@@ -1,7 +1,8 @@
-const users = [
-    { nombre: "mali", password: "1234dfg" },
-    {},
-    {}
+const cuentas = [
+    { nombre: "mali", saldo: 900, password: "1234dfg" },
+    { nombre: "joss", saldo: 500, password: "password" },
+    { nombre: "alex", saldo: 700, password: "jkhkl" },
+    { nombre: "andrea", saldo: 700, password: "123456" },
 ];
 
 /* const inputName = document.querySelector('#userNameInput');
@@ -19,6 +20,7 @@ loginButton.addEventListener('click', (e) => {
 }) */
 
 const form = document.querySelector('#loginForm');
+const returnButton = document.querySelector('#return');
 
 /* form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -27,6 +29,10 @@ const form = document.querySelector('#loginForm');
     for (const element of formElements) {
         console.log(element.name + ":" + element.value);
     }
+}) */
+
+/* returnButton.addEventListener('click', () => {
+    console.log("retornar al inicio");
 }) */
 
 
@@ -42,6 +48,14 @@ form.addEventListener('submit', (e) => {
         }
     }
 
-    console.log("Objeto: ", formData);
+    const success = cuentas.some(cuenta => (cuenta.nombre === formData.userName && cuenta.password === formData.userPassword));
+
+    if (success) {
+        console.log("Saltar a la vista de inicio");
+    } else {
+        alert("¡Usuario o contraseña invalidos! :(");
+    }
+    console.log(success);
+
 });
 

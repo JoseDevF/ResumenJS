@@ -69,5 +69,4 @@ contenedor.addEventListener('blur', () => {
 7- event.type: Propiedad que indica el tipo de evento que se ha desencadenado.
 8- event.preventDefault(): Variante del método preventDefault() para evitar el comportamiento predeterminado del evento dentro de una función de listener.
 9- event.stopPropagation(): Variante del método stopPropagation() para detener la propagación del evento dentro de una función de listener.
-10- event.stopPropagation(): Variante del método stopPropagation() para detener la propagación del evento dentro de una función de listener.
 */
