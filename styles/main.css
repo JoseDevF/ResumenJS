@@ -53,3 +53,24 @@ body {
   color: white;
   cursor: pointer;
 }
+
+.seccionDisponible {
+  height: 500px;
+  width: 100%;
+}
+
+.seccionDisponible#opciones {
+  background-color: rgb(146, 47, 47);
+}
+
+.seccionDisponible#consulta {
+  background-color: rgb(136, 146, 47);
+}
+
+.seccionDisponible#ingresos {
+  background-color: rgb(47, 82, 146);
+}
+
+.seccionDisponible#retiros {
+  background-color: rgb(47, 146, 64);
+}
