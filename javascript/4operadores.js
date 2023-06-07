@@ -27,7 +27,6 @@ let y = 8;
 const suma = x + y;
 console.log("VALOR SUMA: ", suma);
 x += y;
-x += y;
 console.log("VALOR X: ", x);
 
 /* 
@@ -59,6 +58,8 @@ Operador Menor que -> <
 Operador Menor o igual que -> <=
 
  */
+
+"gghfghvghsvf 'gasgf'"
 
 console.log("IGUALDAD", 2 == '2');
 console.log("IGUALDAD ESTRICTA", 2 === '2');

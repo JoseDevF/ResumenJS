@@ -19,19 +19,21 @@
 */
 
 const mensaje = "Hola mundo";
+console.log(mensaje.split(" "))
 const dni = 129381723918237;
-const dniString = "129381723918237";
+const dniString = "129381723918237"; /* ->String */
 const mayorEdad = true;
-const suma = function (){
+const suma = function () {
   return 1 + 2;
 }
 let test;
 
-/* const userName = "Carlos";
+const userName = "Carlos";
 const lastName = "Perez";
 const ageUser = 40;
-const dniUser = 1238128371263; */
+const dniUser = 1238128371263;
 
+/* Object */
 const user = {
   firtName: "Carlos",
   lastName: "Perez",
